@@ -1,0 +1,8 @@
+# PC2 Configuration
+
+IP address: 192.168.20.10
+Subnet mask: 255.255.255.0
+Gateway: 192.168.20.1
+
+Command used in VPCS:
+ip 192.168.20.10/24 192.168.20.1
