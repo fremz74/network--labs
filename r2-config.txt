@@ -1,0 +1,10 @@
+# R2 Configuration
+
+# Interface vers PC2
+set interfaces ethernet eth0 address 192.168.20.1/24
+
+# Interface vers R1
+set interfaces ethernet eth2 address 10.0.0.2/30
+
+# Static route vers le réseau de PC1
+set protocols static route 192.168.10.0/24 next-hop 10.0.0.1
